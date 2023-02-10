@@ -29,5 +29,10 @@
 
     Todo:
         1. App.js
-           - Buat deleteLast function
-           - pasang pada button 'DEL'
+
+## Background-image
+
+    Todo:
+        1. image/regal.png
+        2. index.css
+           - pasang background-image:url('image/regal.png')
