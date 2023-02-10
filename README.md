@@ -17,3 +17,10 @@
            - createDigits()
            - updateCalc()
              mencetak nilai dari digit setelah dilakukan ('*','/','+','-')
+
+## Fungsi menghitung hasil
+
+    Todo:
+        1. App.js
+           - Buat calculate function
+           - pasang pada button '='
