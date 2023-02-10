@@ -24,3 +24,10 @@
         1. App.js
            - Buat calculate function
            - pasang pada button '='
+
+## Fungsi untuk menghapus angka terakhir
+
+    Todo:
+        1. App.js
+           - Buat deleteLast function
+           - pasang pada button 'DEL'

@@ -35,6 +35,14 @@ function App() {
   const calculate = () => {
     setCalc(eval(calc).toString())
   }
+  // Fungsi untuk menghapus angka terakhir
+  const deleteLast = () => {
+    if (calc === "") return
+
+    const value = calc.slice(0, -1)
+
+    setCalc(value)
+  }
   return (
     <div className="App">
       <div className="calculator">
@@ -48,7 +56,8 @@ function App() {
           <button onClick={() => updateCalc("*")}> * </button>{" "}
           <button onClick={() => updateCalc("+")}> + </button>{" "}
           <button onClick={() => updateCalc("-")}> - </button>{" "}
-          <button> DEL </button>{" "}
+          {/* memasang function deleteLats */}
+          <button onClick={deleteLast}> DEL </button>{" "}
         </div>{" "}
         {/* Memberi nilai pada button  digit */}
         <div className="digits">
